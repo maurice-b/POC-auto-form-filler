@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Example form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style type="text/css">
+        form.form-example {
+            display: table;
+        }
+
+        div.form-example {
+            display: table-row;
+        }
+
+        label, input {
+            display: table-cell;
+            margin-bottom: 10px;
+        }
+
+        label {
+            padding-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="header">Example form</h1>
+        <div>
+            <form action="/submit-form" method="post" class="form-example">
+                <div class="form-example">
+                    <label for="name">Name:</label>
+                    <input name="name" type="text" id="name" data-cy="name"/>
+                </div>
+
+                <div class="form-example">
+                    <label for="email">Email:</label>
+                    <input name="email" type="text" id="email" data-cy="email"/>
+                </div>
+
+                <div class="form-example">
+                    <label for="loonSom">Loonsom:</label>
+                    <input name="loonSom" type="text" id="loonSom" data-cy="loonSom"/>
+                </div>
+
+                <div class="form-example">
+                    <button type="submit" id="submit" data-cy="submit">Versturen</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
