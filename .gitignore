@@ -44,3 +44,4 @@ Thumbs.db
 /.npm-cache/
 /cypress/downloads/
 /src/assets/files/
+/cypress/screenshots/

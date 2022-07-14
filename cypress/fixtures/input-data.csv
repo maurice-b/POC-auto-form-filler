@@ -1,17 +1,6 @@
 name,email, loonSom
 maurice, test@test.com, 1000
-est User, test1@ret.nh, 9999
-est User, test1@ret.nh, 9999
-est User, test1@ret.nh, 9999
-est User, test1@ret.nh, 9999
-est User, test1@ret.nh, 9999
-est User, test1@ret.nh, 9999
-est User, test1@ret.nh, 9999
-est User, test1@ret.nh, 9999
-est User, test1@ret.nh, 9999
-est User, test1@ret.nh, 9999
-est User, test1@ret.nh, 9999
-est User, test1@ret.nh, 9999
-est User, test1@ret.nh, 9999
-est User, test1@ret.nh, 9999
-est User, test1@ret.nh, 9999
+, test@test.com, 1000
+a, , 1000
+b, test@test.com,
+c, test@test.com, 1000
